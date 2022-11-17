@@ -40,20 +40,21 @@ public class CanvasController : MonoBehaviour
 
     public void ResGame() 
     {
+        Time.timeScale = 1;
         FadeImg.DOFade(1, 1);
         Invoke("LateLoad", 1);
     }
 
     void LateLoad() 
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
 
     }
 
     public void NextLevel() 
     {
         Time.timeScale = 1;
-        PlayerPrefs.SetInt("level", PlayerPrefs.GetInt("level") + 1);
+        PlayerPrefs.SetInt("level", PlayerPrefs.GetInt("level") );
         FadeImg.DOFade(1, 1);
         Invoke("LateLoad", 1);
 
