@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
   - enabled: 1
-    path: Assets/Scenes/FlyingIsles.unity
+    path: Assets/Scenes/StoryMode.unity
     guid: a9f9668609edb0a4b8b7283cf89e80f4
+  - enabled: 1
+    path: Assets/Scenes/Survive Mode.unity
+    guid: a49edcffbda5de044b1b992154b05fdd
   m_configObjects: {}

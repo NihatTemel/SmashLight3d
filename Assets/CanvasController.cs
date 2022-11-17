@@ -47,8 +47,20 @@ public class CanvasController : MonoBehaviour
 
     void LateLoad() 
     {
+        if(SceneManager.GetActiveScene().buildIndex==1)
         SceneManager.LoadScene(1);
+        else
+        {
+        SceneManager.LoadScene(2);
 
+        }
+
+    }
+
+    public void GoMenu() 
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(0);
     }
 
     public void NextLevel() 
