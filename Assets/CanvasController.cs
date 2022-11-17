@@ -21,11 +21,11 @@ public class CanvasController : MonoBehaviour
     {
         FadeImg.DOFade(0, 1);
 
-        if (PlayerPrefs.GetInt("screen") == 0) 
+       /* if (PlayerPrefs.GetInt("screen") == 0) 
         {
             PlayerPrefs.SetInt("screen", 1);
-            Screen.SetResolution(Screen.currentResolution.width/2 , Screen.currentResolution.height/2, true);
-        }
+          //  Screen.SetResolution(Screen.currentResolution.width/2 , Screen.currentResolution.height/2, true);
+        }*/
         Time.timeScale = 1;
         PlayerPrefs.SetInt("ball", TotalBall);
         
@@ -47,11 +47,11 @@ public class CanvasController : MonoBehaviour
 
     void LateLoad() 
     {
-        if(SceneManager.GetActiveScene().buildIndex==1)
-        SceneManager.LoadScene(1);
+        if(SceneManager.GetActiveScene().buildIndex==2)
+        SceneManager.LoadScene(2);
         else
         {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
 
         }
 
@@ -60,7 +60,7 @@ public class CanvasController : MonoBehaviour
     public void GoMenu() 
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void NextLevel() 

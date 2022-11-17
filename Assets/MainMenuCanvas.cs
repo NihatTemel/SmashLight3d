@@ -8,17 +8,17 @@ public class MainMenuCanvas : MonoBehaviour
 
     private void Start()
     {
-        PlayerPrefs.SetInt("screen", 0);
+        //PlayerPrefs.SetInt("screen", 0);
     }
 
     public void SurvivePlay() 
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 
     public void StoryPlay() 
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
 
     }
 
