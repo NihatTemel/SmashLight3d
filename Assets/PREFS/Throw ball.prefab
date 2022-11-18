@@ -29,7 +29,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4055699524343935192}
-  m_LocalRotation: {x: -0.0031803832, y: 0.70658225, z: 0.0031757343, w: 0.7076167}
+  m_LocalRotation: {x: -0.0058675907, y: 0.6983995, z: 0.005726064, w: 0.7156613}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartForce: 1800
-  direction: {x: 22.952026, y: -0.056735516, z: 1.4538014}
+  direction: {x: 42.899178, y: -3.8654141, z: 3.3607001}
   FracturedBall: {fileID: 1153741239947509595, guid: 5473751b5d9c6a847abd3de1689aedf4, type: 3}
 --- !u!54 &7926948818572125255
 Rigidbody:
