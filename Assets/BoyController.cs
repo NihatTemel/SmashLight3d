@@ -6,7 +6,7 @@ using DG.Tweening;
 public class BoyController : MonoBehaviour
 {
     [SerializeField] Rigidbody rb;
-    [SerializeField] float movespeed;
+    public float movespeed;
 
 
 

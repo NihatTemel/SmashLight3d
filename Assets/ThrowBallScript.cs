@@ -48,7 +48,7 @@ public class ThrowBallScript : MonoBehaviour
         if (collision.collider.tag == "engel")
         {
 
-
+            
             collision.gameObject.tag = "Untagged";
             //Player.GetComponent<MeshRenderer>().material = collision.gameObject.GetComponent<MeshRenderer>().material;
 
@@ -64,6 +64,9 @@ public class ThrowBallScript : MonoBehaviour
             this.gameObject.SetActive(false);
         }
     }
+
+
+   
 
 
 }
