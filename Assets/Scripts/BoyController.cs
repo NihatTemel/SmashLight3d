@@ -87,6 +87,7 @@ public class BoyController : MonoBehaviour
         }
         if (other.tag == "Finish")
         {
+            PlayerPrefs.SetInt("level", PlayerPrefs.GetInt("level") + 1);
             WinPanel.SetActive(true);
             PlayerPrefs.SetInt("finish", 0);
             movespeed = 0;
