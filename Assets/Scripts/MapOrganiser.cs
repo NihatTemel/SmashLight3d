@@ -21,8 +21,8 @@ public class MapOrganiser : MonoBehaviour
         
         if (Player.transform.position.x > Limit) 
         {
-            PlayerPrefs.SetInt("ball", PlayerPrefs.GetInt("ball") + 20);
-            Player.GetComponent<BoyController>().movespeed += 1;
+            PlayerPrefs.SetInt("ball", PlayerPrefs.GetInt("ball") + 10);
+            Player.GetComponent<BoyController>().movespeed += 1.5f;
             Limit += 245;
             var pos = transform.GetChild(index).transform.position;
             pos.x += (distance*3);

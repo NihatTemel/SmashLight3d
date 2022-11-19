@@ -1228,6 +1228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: banner
       objectReference: {fileID: 0}
+    - target: {fileID: 6301498717153790805, guid: e4420bb2ac0e44a40847b3af08c6544f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6301498717153790807, guid: e4420bb2ac0e44a40847b3af08c6544f, type: 3}
       propertyPath: m_RootOrder
       value: 3
